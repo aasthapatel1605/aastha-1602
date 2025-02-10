@@ -1,0 +1,152 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><h1>Tribute to Mahatma Gandhi</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main id="main">
+
+    <h1 id="title">Tribute to Mahatma Gandhi</h1>
+
+    <div id="img-div">
+      <img 
+        id="image" 
+        src="https://uctc.co.in/wp-content/uploads/2024/05/mahatma-gandhi.jpg" 
+        alt="Mahatma Gandhi" 
+        class="image" 
+      />
+      <div id="img-caption">
+        <h4>Mahatma Gandhi was the leader of the Indian independence movement.</h4>
+      </div>
+    </div>
+
+    <section id="tribute-info">
+      <p><strong>Mohandas Karamchand Gandhi</strong> (<span class="bold">2 October 1869 – 30 January 1948</span>) was an Indian lawyer, anti-colonial nationalist, and political ethicist who employed nonviolent resistance to lead the successful campaign for India's independence from British rule.</p>
+      <h3 id="headline">Quotes</h3>
+      <ul id="tribute-quotes">
+        <li>"Be the change that you wish to see in the world."</li>
+        <li>"An eye for an eye only ends up making the whole world blind."</li>
+        <li>"Live as if you were to die tomorrow. Learn as if you were to live forever."</li>
+        <li>"You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty."</li>
+        <li>"First they ignore you, then they laugh at you, then they fight you, then you win."</li>
+        <li>"The world has enough for everyone's need, but not everyone's greed."</li>
+        <li>"It's easy to stand in the crowd but it takes courage to stand alone."</li>
+      </ul>
+      
+      <h3 id="headline">Life Timeline of Mahatma Gandhi</h3>
+      <ul>
+        <li><strong>1869</strong> - Mohandas Karamchand Gandhi was born in Porbandar, India.</li>
+        <li><strong>1888</strong> - Gandhi went to London to study law at University College London and became a barrister.</li>
+        <li><strong>1893</strong> - Gandhi traveled to South Africa for a job as a legal advisor. He soon became involved in the fight for the rights of the Indian minority in South Africa, where he faced racial discrimination for the first time.</li>
+        <li><strong>1915</strong> - After 21 years in South Africa, Gandhi returned to India. He soon became involved in the Indian independence movement.</li>
+        <li><strong>1930</strong> - Gandhi led the Salt March to protest British salt laws.Gandhi led the Salt March (also called the Dandi March), a 240-mile walk to the coastal village of Dandi to produce salt illegally, defying British salt laws.</li>
+        <li><strong>1947</strong> - India gained independence from British rule.India gained independence from British rule, and the country was divided into India and Pakistan. Gandhi was instrumental in securing this independence,the partition was accompanied by large-scale violence.</li>
+        <li><strong>1948</strong> - On January 30, 1948 Gandhi was assassinated by Nathuram Godse in New Delhi.</li>
+      </ul>
+    </section>
+
+    <div class="quote-container">
+      <p class="quote">"You must not lose faith in humanity. Humanity is an ocean; if a few drops of the ocean are dirty, the ocean does not become dirty."</p>
+      <p class="quote-author">-- Mahatma Gandhi</p>
+    </div>
+
+    <h3>
+      If you have time, you should read more about this incredible human being on his
+      <a 
+        id="tribute-link" 
+        href="https://en.wikipedia.org/wiki/Mahatma_Gandhi" 
+        target="_blank">
+        Wikipedia entry
+      </a>.
+    </h3>
+
+  </main>
+
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+h1 {
+  padding: 0;
+  margin: 0;
+  color: WHITE;
+  style : bold;
+}
+
+h3 {
+  font-size: 20px;
+  background-color: green;
+  padding: 10px;
+  margin: 10px;
+}
+
+body {
+  background-color: #024950;
+  color: WHITE;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+li {
+  margin: 20px;
+}
+
+.quote {
+  margin: 30px 30px 5px;
+}
+
+.quote-author {
+  text-indent: 30px;
+}
+
+a {
+  color: ;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+#img-div {
+  background:white;
+  padding: 10px;
+  margin: 0;
+}
+
+#img-caption {
+  margin: 15px 0 5px 0;
+}
+
+
+
+
+
+
+
+
+** end of undefined **
+
